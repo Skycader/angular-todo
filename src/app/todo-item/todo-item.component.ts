@@ -16,5 +16,8 @@ export class TodoItemComponent implements OnInit {
   complete() {
     this.classes+=" completed"
   }
+  unComplete() {
+    this.classes="task"
+  }
 
 }

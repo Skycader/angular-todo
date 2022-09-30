@@ -1,4 +1,7 @@
 <div class={{classes}}>
-    <div class="taskTitle">{{taskTitle}}</div>
-    <button (click)="complete()">+</button>
+    <input [value]="taskTitle" class="taskTitle">
+    <div clas="buttons">
+    <button mat-raised-button (click)="unComplete()">-</button>
+    <button mat-raised-button (click)="complete()">+</button>
+    </div>
 </div>

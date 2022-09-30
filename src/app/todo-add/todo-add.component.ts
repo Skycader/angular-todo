@@ -21,6 +21,7 @@ export class TodoAddComponent implements OnInit {
 
   sendTaskHandler() {
     this.sendTask.emit(this.taskTitle)
+    this.taskTitle = ""
   }
 
   addTask() {
