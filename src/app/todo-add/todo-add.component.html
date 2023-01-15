@@ -1,4 +1,4 @@
 <div>
-  <input type="text" (keyup.enter)="sendTaskHandler()" [value]="taskTitle" (input)="setTitle($event)"  placeholder="Type task..." />
+  <input type="text" (keydown.enter)="sendTaskHandler()" [value]="taskTitle" (input)="setTitle($event)"  placeholder="Type task..." />
 </div>
 

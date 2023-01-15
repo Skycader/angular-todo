@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./todo-item.component.scss']
 })
 export class TodoItemComponent implements OnInit {
-  @Input() taskTitle = ""
+  @Input() public taskTitle = ""
   classes = "task"
   constructor() { }
 
